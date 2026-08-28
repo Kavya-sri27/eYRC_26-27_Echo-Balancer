@@ -1,0 +1,18 @@
+name: EB_9999
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - opencv
+  - control
+  - matplotlib
+  - numpy
+  - sympy
+  - python=3.10.*
+  - oct2py
+  - oauth2client
+  - gspread
+  - pip:
+    - cbor
+    - cryptocode
+    - pyzmq
